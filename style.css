@@ -61,3 +61,24 @@ main{
 .title{
   margin: 15px 0 5px;
 }
+/*スマホサイズ-レスポンシブ対応*/
+@media screen and (max-width:425px) {
+
+  main {
+    width: 90%;
+  }
+
+  .step-box{
+    float: none; /* floatを解除  */
+    width: 90%;  /* mainの中で幅90% */
+    margin: 0 0 20px;/* 下方向に20px */
+  }
+
+  .step-box:first-child{
+    margin: 50px 0 20px;/* 上に50px,下に20px*/
+  }
+
+  .step-box:last-child{
+    margin: 0 0 50px;/* 下に50px */
+  }
+}
