@@ -61,8 +61,8 @@ main{
 .title{
   margin: 15px 0 5px;
 }
-/*スマホサイズ-レスポンシブ対応*/
-@media screen and (max-width:425px) {
+/* 768px以下では縦並びにする(訂正箇所) */
+@media screen and (max-width:768px) {
 
   main {
     width: 90%;
